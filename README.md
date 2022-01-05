@@ -18,12 +18,12 @@ We tested the implementation in Python 3.7.
 
 * The ICVL dataset can be downloaded from [Link to Dataset](http://icvl.cs.bgu.ac.il/hyperspectral/).
  
-* The 100 HSIs used in our training can be found in [ICVL_train.txt](https://github.com/bearshng/mac-net/ICVL_train.txt).
+* The 100 HSIs used in our training can be found in [ICVL_train.txt](https://github.com/bearshng/mac-net/blob/master/ICVL_train.txt).
 
 
-* The 50 HSIs used for testing can be found in [ICVL_test.txt](https://github.com/bearshng/mac-net/ICVL_test.txt).
+* The 50 HSIs used for testing can be found in [ICVL_test.txt](https://github.com/bearshng/mac-net/blob/master/ICVL_test_gauss.txt).
 
-* The sample WDC testing HSI can be accssed via [Google Drive](https://drive.google.com/drive/folders/1A8rl-V6h1MCz1S4dVEHyj0nz_2f7vUJd?usp=sharing).
+* The sample WDC testing HSI can be accssed via [Google Drive](https://drive.google.com/drive/folders/1XI2S-AVCsx1jNyO4-XvQnfY8n7sXj1mW?usp=sharing).
 
 
 # Test
