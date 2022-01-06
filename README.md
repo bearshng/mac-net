@@ -23,7 +23,7 @@ We tested the implementation in Python 3.7.
 
 * The 50 HSIs used for testing can be found in [ICVL_test.txt](https://github.com/bearshng/mac-net/blob/master/ICVL_test_gauss.txt).
 
-* The sample WDC testing HSI can be accssed via [Google Drive](https://drive.google.com/drive/folders/1XI2S-AVCsx1jNyO4-XvQnfY8n7sXj1mW?usp=sharing).
+* The sample WDC testing HSI can be accessed via [Google Drive](https://drive.google.com/drive/folders/1XI2S-AVCsx1jNyO4-XvQnfY8n7sXj1mW?usp=sharing).
 
 
 # Test
@@ -42,14 +42,14 @@ We tested the implementation in Python 3.7.
 
 ### Important arguments
 
-* `test_path `: your data path
+* `test_path `: path to testing dataset
 * `channels `: the dimensiona of feature extractor
 * `blind `: blind denoising
 * `noise_level `: the maximum noise level
-* `gt_path `: path to ground truth image
+* `gt_path `: path to ground truth image (for calculating PSNR ,SSIM and SAM)
 * `gpus `: device id
 * `save` : save results 
-* `rs_real `: realworld remote sensing HSI
+* `rs_real `: real-world remote sensing HSI
 
 
 
@@ -67,7 +67,8 @@ We tested the implementation in Python 3.7.
 * `bandwise `: add noise with a range of sigma
 * `lr`: learning rate
 * `patch_size`: patch size
-*`train_path`: path to training set
+
+* `train_path`: path to training set
 * `test_path `: path to validation set
 * `log_dir `: path to logs
 * `out_dir `: path to resulted models
@@ -76,7 +77,7 @@ We tested the implementation in Python 3.7.
 
 ## Bibtex
 
-`@ARTICLE{9631264,  author={Xiong, Fengchao and Zhou, Jun and Zhao, Qinling and Lu, Jianfeng and Qian, Yuntao},  journal={IEEE Transactions on Geoscience and Remote Sensing},   title={MAC-Net: Model Aided Nonlocal Neural Network for Hyperspectral Image Denoising},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/TGRS.2021.3131878}}`
+`@ARTICLE{macnet2021,  author={Xiong, Fengchao and Zhou, Jun and Zhao, Qinling and Lu, Jianfeng and Qian, Yuntao},  journal={IEEE Transactions on Geoscience and Remote Sensing},   title={MAC-Net: Model Aided Nonlocal Neural Network for Hyperspectral Image Denoising},   year={2021},  volume={},  number={},  pages={1-1},  doi={10.1109/TGRS.2021.3131878}}`
 
 ## Update
 
