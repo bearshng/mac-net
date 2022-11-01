@@ -26,11 +26,11 @@ class MyResize:
 
     def __call__(self, x):
         bands = x.shape[2]
-        if bands > 31:
-            bs = int(np.random.rand(1) * bands)
-            if bs + 31 > bands:
-                bs = bands - 31
-            x = x[:, :, bs:bs + 31]
+#         if bands > 31:
+#             bs = int(np.random.rand(1) * bands)
+#             if bs + 31 > bands:
+#                 bs = bands - 31
+#             x = x[:, :, bs:bs + 31]
         im_sz=x.shape
         rs=[int(im_sz[0]*self.scale),int(im_sz[1]*self.scale)]
         if rs[0]<self.crop:
